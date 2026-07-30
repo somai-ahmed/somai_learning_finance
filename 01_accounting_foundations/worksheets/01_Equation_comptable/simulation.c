@@ -19,8 +19,7 @@ typedef struct compte{
 }compte;
 
 typedef struct entry{
-    int compte.id ;
-    char compte.nom_compte[50];
+    int compteID;
     float debit;
     float credit;
 }entry;
