@@ -14,6 +14,12 @@ typedef enum {
   charge;
 }typecompte;
 
+typedef struct Date {
+    int jour;
+    int mois;
+    int annee;
+}Date;
+
 typedef struct compte{
   int id ;
   int num_compte;
@@ -28,8 +34,4 @@ typedef struct entry{
     float credit;
 }entry;
 
-typedef struct Transaction{
-    int compte.id ;
-    Date date;
-    char description[50];
-    int n_lignes;
+
