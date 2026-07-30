@@ -6,6 +6,8 @@ typedef enum {
   actif ;
   passif;
   capitaux_propres;
+  revenue;
+  charge;
 }typecompte;
 
 typedef struct compte{
@@ -22,3 +24,9 @@ typedef struct entry{
     float debit;
     float credit;
 }entry;
+
+typedef struct Transaction{
+    int compte.id ;
+    Date date;
+    char description[50];
+    int n_lignes;
