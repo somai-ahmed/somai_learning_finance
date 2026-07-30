@@ -14,4 +14,4 @@ typedef struct compte{
   char nom_compte[50];
   typecompte t_compte ;
   float solde;
-}
+}compte;
