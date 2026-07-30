@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MAX_ENTRIES 20
+#define MAX_TRANSACTIONS 1000
+#define MAX_COMPTES 500
+
 typedef enum {
   actif ;
   passif;
