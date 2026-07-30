@@ -34,4 +34,10 @@ typedef struct entry{
     float credit;
 }entry;
 
-
+typedef struct transaction{  
+    int id;
+    char date[11];
+    char description[100];
+    Entry entries[MAX_ENTRIES];
+    int nombreEntries;
+} transaction;
