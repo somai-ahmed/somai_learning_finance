@@ -15,3 +15,10 @@ typedef struct compte{
   typecompte t_compte ;
   float solde;
 }compte;
+
+typedef struct entry{
+    int compte.id ;
+    char compte.nom_compte[50];
+    float debit;
+    float credit;
+}entry;
