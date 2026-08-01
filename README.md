@@ -1,4 +1,4 @@
-# Somai Learning Finance
+# Learning Finance
 
 > My journey to master accounting, finance, and financial systems engineering through practical learning, documentation, and projects.
 
